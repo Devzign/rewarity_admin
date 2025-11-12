@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Meta -->
+    <meta name="description" content="">
+    <meta name="author" content="Themepixels">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="dist/assets/img/favicon.png">
+
+    <title>DashByte - HTML Documentation</title>
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="dist/lib/remixicon/fonts/remixicon.css">
+    <link rel="stylesheet" href="dist/lib/prismjs/themes/prism.min.css">
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="dist/assets/css/style.min.css">
+    <style>
+      .sidebar-body { height: calc(100% - 72px); }
+
+      .file-structure {
+        padding: 15px;
+        border: 1px solid #e2e5ec;
+        line-height: 1.7;
+      }
+
+      .file-structure ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .file-structure ul ul { padding-left: 15px; }
+      .file-structure ul li { padding-left: 4px; }
+      .file-structure > ul > li { padding-left: 0; }
+      .file-structure strong { font-weight: 600; }
+      .file-structure i { opacity: .65  ; }
+
+      :not(pre) > code[class*="language-"],
+      pre[class*="language-"] { background-color: #f3f5f9; }
+    </style>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navSidebar">
+
+    <div class="sidebar">
+      <div class="sidebar-header">
+        <a href="../" class="sidebar-logo">dashbyte</a>
+      </div><!-- sidebar-header -->
+      <div id="sidebarMenu" class="sidebar-body">
+        <div class="nav-group show">
+          <a href="#" class="nav-label">Documentation</a>
+          <ul id="navSidebar" class="nav nav-sidebar">
+            <li class="nav-item">
+              <a href="#section1" class="nav-link active"><span>Introduction</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#section2" class="nav-link"><span>File Structure</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#section3" class="nav-link"><span>Node</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#section4" class="nav-link"><span>Gulp</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#section5" class="nav-link"><span>SASS</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#section6" class="nav-link"><span>Running Local</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#section7" class="nav-link"><span>Stylesheet</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#section8" class="nav-link"><span>Scripts</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#section9" class="nav-link"><span>Starter Pages</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#section10" class="nav-link"><span>Known Issue</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#section11" class="nav-link"><span>References</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#section12" class="nav-link"><span>Customer Support</span></a>
+            </li>
+          </ul>
+        </div><!-- nav-group -->
+      </div><!-- sidebar-body -->
+    </div><!-- sidebar -->
+
+    <div class="main-mobile-header doc-mobile-header">
+      <a id="menuLink" href="#" class="menu-link"><i class="ri-menu-line"></i></a>
+    </div><!-- main-mobile-header -->
+
+    <div class="main main-docs">
+      <div class="container">
+        <h2 class="main-title mb-3">Dashbyte HTML Documentation</h2>
+        <p class="main-title-text">Thank you so much for purchasing our theme. If you have any questions that are beyond the scope of this help file, please feel free to <a href="mailto:themepixels@gmail.com">email us</a> or submit a comment to this template. Thanks so much!</p>
+
+        <hr class="main-separator">
+
+        <h5 id="section1" class="main-subtitle mb-4">Introduction</h5>
+
+        <p>Dashbyte, a premium quality modern and clean Bootstrap 5 dashboard template using simplicity and minimal design. It is fully responsive built using SASS preprocessor, HTML5, CSS3 and jQuery plugins. It uses most of the helper/utilities classes which are reusable class that makes the page faster and increases the speed of page time load.</p>
+        <p>This part of the doc will help you to quick start your project and will give you a basic idea about how this template work. For you to get start open the template download package.</p>
+
+        <hr class="main-separator">
+
+        <h5 id="section2" class="main-subtitle mb-4">File Structure</h5>
+
+        <div class="file-structure">
+          <ul>
+            <li>
+              |-- <strong>HTML/</strong>
+              <ul>
+                <li>
+                  |-- <strong>dist/</strong>
+                  <ul>
+                    <li>
+                      |-- <strong>apps/</strong>
+                      <ul>
+                        <li>|-- <i>All apps html pages</i></li>
+                      </ul>
+                    </li>
+                    <li>
+                      |-- <strong>assets/</strong>
+                      <ul>
+                        <li>|-- <strong>css/</strong></li>
+                        <li>|-- <strong>data/</strong></li>
+                        <li>|-- <strong>img/</strong></li>
+                        <li>|-- <strong>js/</strong></li>
+                        <li>|-- <strong>svg/</strong></li>
+                      </ul>
+                    </li>
+                    <li>
+                      |-- <strong>dashboard/</strong>
+                      <ul>
+                        <li>|-- <i>All dashboard html pages</i></li>
+                      </ul>
+                    </li>
+                    <li>
+                      |-- <strong>docs/</strong>
+                      <ul>
+                        <li>|-- <i>All ui elements pages</i></li>
+                      </ul>
+                    </li>
+                    <li>
+                      |-- <strong>lib/</strong>
+                      <ul>
+                        <li>|-- <i>All 3rd party plugin libraries</i></li>
+                      </ul>
+                    </li>
+                    <li>
+                      |-- <strong>pages/</strong>
+                      <ul>
+                        <li>|-- <i>All pages html pages</i></li>
+                      </ul>
+                    </li>
+                    <li>|-- index.html</li>
+                  </ul>
+                </li>
+                <li>|-- documentation.html</li>
+                <li>|-- gulpfile.js</li>
+                <li>|-- index.html</li>
+                <li>|-- package.json</li>
+                <li>|-- README.md</li>
+                <li>
+                  |-- <strong>scss/</strong>
+                  <ul>
+                    <li>|-- <strong>apps/</strong></li>
+                    <li>|-- <strong>components/</strong></li>
+                    <li>|-- <strong>dark/</strong></li>
+                    <li>|-- <strong>dashboard/</strong></li>
+                    <li>|-- <strong>pages/</strong></li>
+                    <li>|-- <strong>panels/</strong></li>
+                    <li>|-- <strong>plugins/</strong></li>
+                    <li>|-- _mixins.scss</li>
+                    <li>|-- _utils.scss</li>
+                    <li>|-- _variables.scss</li>
+                    <li>|-- dark.scss</li>
+                    <li>|-- style.scss</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- file-structure -->
+
+        <hr class="main-separator">
+
+        <h5 id="section3" class="main-subtitle mb-4">Node</h5>
+
+        <p>Before installing gulp and sass first you must have NodeJs installed, NodeJS will have npm (node packaged modules).</p>
+
+        <p>Node.js is an open-source server environment. Node.js is cross-platform and runs on Windows, Linux, Unix, and macOS. Node.js is a back-end JavaScript runtime environment. Node.js runs on the V8 JavaScript Engine and executes JavaScript code outside a web browser.</p>
+
+        <p>Online Reference: <a href="https://nodejs.org/en/" target="_blank">https://nodejs.org/en/</a></p>
+        <br>
+
+        <p class="mb-2"><strong class="fw-semibold text-dark">Installing in Mac</strong></p>
+        <p>Simply download the <a href="https://nodejs.org/en/download/" target="_blank">macOS Installer</a> directy from the nodejs.org web site.</p>
+        <p>If you want to download the package with bash:</p>
+        <pre class="mb-4"><code class="language-js">curl "https://nodejs.org/dist/latest/node-${VERSION:-$(wget -qO- https://nodejs.org/dist/latest/ | sed -nE 's|.*>node- (.*)\.pkg.*|\1|p')}.pkg" > "$HOME/Downloads/node-latest.pkg" && sudo installer -store -pkg "$HOME/Downloads/node-latest.pkg" -target "/"</code></pre>
+
+        <p>If you want to install using homebrew:</p>
+        <pre class="mb-4"><code class="language-js">brew install node</code></pre>
+
+        <p class="mb-2"><strong class="fw-semibold text-dark">Installing in Windows</strong></p>
+        <p>Simply download the <a href="https://nodejs.org/en/download/" target="_blank">Windows Installer</a> directy from the nodejs.org web site.</p>
+
+        <hr class="main-separator">
+
+        <h5 id="section4" class="main-subtitle mb-4">Gulp</h5>
+
+        <p>Before installing gulp first you must have NodeJs installed, NodeJS will have npm (node packaged modules).</p>
+
+        <p>Gulp is a toolkit for automating painful or time-consuming tasks in your development workflow, so you can stop messing around and build something.</p>
+
+        <p>Online Reference: <a href="https://gulpjs.com/" target="_blank">https://gulpjs.com/</a></p>
+
+        <p class="mb-2"><strong class="fw-semibold text-dark">Installing the CLI</strong></p>
+        <p>If you have previously installed a version of gulp globally, please run npm rm --global gulp to make sure your old version doesn't collide with gulp-cli.</p>
+
+        <pre class="mb-4"><code class="language-js">$ npm install -g gulp-cli</code></pre>
+
+        <p>Verify that gulp is successfully installed, and version of installed gulp will appear.</p>
+
+        <pre class="mb-4"><code class="language-js">$ gulp --v</code></pre>
+
+        <hr class="main-separator">
+
+        <h5 id="section5" class="main-subtitle mb-4">SASS</h5>
+
+        <p>Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets.</p>
+
+        <p>Before running gulp first you must check if you have sass installed in your machine. You can verify that sass is already installed by running the command.</p>
+
+        <pre class="mb-4"><code class="language-js">$ sass --v</code></pre>
+
+        <p>If version appear, it means sass already installed in your machine and proceed to the next topic, otherwise follow the instructions below on installing sass.</p>
+
+        <p class="mb-2"><strong class="fw-semibold text-dark">Installing in Windows</strong></p>
+
+        <p>Before you start using Sass you will need to install Ruby. The fastest way to get Ruby on your Windows computer is to use <a href="https://rubyinstaller.org/" target=_blank>Ruby Installer</a>. It's a single-click installer that will get everything set up for you super fast.</p>
+
+        <p class="mb-2"><strong class="fw-semibold text-dark">Installing in Mac</strong></p>
+
+        <p>If you prefer the command line over an application then getting Sass set up is a fairly quick process. Sass has a Ruby dependency but if you're using a Mac, congratulations, Ruby comes pre-installed.</p>
+
+        <p>Ruby uses Gems to manage its various packages of code like Sass. In your open terminal or cmd window:</p>
+
+        <pre class="mb-4"><code class="language-js">$ gem install sass</code></pre>
+
+        <p>You should now have Sass installed, but it never hurts to double-check.</p>
+
+        <pre class="mb-4"><code class="language-js">$ sass --v</code></pre>
+
+        <p>Online reference: <a href="https://www.ruby-lang.org/en/documentation/installation/" target="_blank">https://www.ruby-lang.org/en/documentation/installation/</a></p>
+
+        <hr class="main-separator">
+
+        <h5 id="section6" class="main-subtitle mb-4">Running Local</h5>
+
+        <p>You're moments away to see the dashboard template up and running in your local machine. First, go to the root folder where the package.json located. In your download package it should be in the root folder. Please run the following command below.</p>
+
+        <div class="alert alert-info">
+          <span class="fw-medium">Note:</span> Running this template to you local machine is not a requirements for you to see the template. You can directly browse to the template folder and choose any html file you want to open by opening it directly to the browser.
+        </div>
+
+        <pre class="mb-4"><code class="language-js">$ npm install</code></pre>
+
+        <p>This will download all dependencies defined in package.json file. Once it finished running the command, it will generate a folder name node_modules/ where you see downloaded files.Next, run another command below.</p>
+
+        <p class="mb-2"><strong class="fw-semibold text-dark">Running in Browser</strong></p>
+
+        <p>Now you're good to go in running the template and preview it in browser by running the command below.</p>
+
+        <pre class="mb-4"><code class="language-js">$ gulp serve</code></pre>
+
+        <p>The template is now up and running in your browser. Feel free to visit each page and familiarize the flow of it.</p>
+
+        <hr class="main-separator">
+
+        <h5 id="section7" class="main-subtitle mb-4">Stylesheet</h5>
+
+        <p>Include the following stylesheet into the head of your page. This must be present in all of your pages.</p>
+
+        <pre class="mb-4"><code class="language-html">&lt;!-- Vendor CSS --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;../lib/remixicon/fonts/remixicon.css&quot;&gt;
+
+&lt;!-- Template CSS --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;../assets/css/style.min.css&quot;&gt;
+&lt;!-- some additional css here --&gt;</code></pre>
+
+        <hr class="main-separator">
+
+        <h5 id="section8" class="main-subtitle mb-4">Scripts</h5>
+
+        <p>Include the following scripts into the end of the body your page. This must be present in all of your pages.</p>
+
+        <pre class="mb-4"><code class="language-html">&lt;script src=&quot;../lib/jquery/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;../lib/bootstrap/js/bootstrap.bundle.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;../lib/perfect-scrollbar/perfect-scrollbar.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;../assets/js/script.js&quot;&gt;&lt;/script&gt;</code></pre>
+
+        <hr class="main-separator">
+
+        <h5 id="section9" class="main-subtitle mb-4">Page Starter</h5>
+
+        <p>Quickly get a page started with any of our starter pages ranging from dashboard to other pages.</p>
+
+        <p class="mb-2"><strong class="fw-semibold text-dark">Dashboard</strong></p>
+        <p>Below is the starter template structure that you can use in creating a new dashboard page.</p>
+
+        <pre class="mb-4"><code class="language-html">&lt;div class=&quot;sidebar&quot;&gt;
+  &lt;div class=&quot;sidebar-header&quot;&gt;
+    &lt;a href=&quot;../&quot; class=&quot;sidebar-logo&quot;&gt;dashbyte&lt;/a&gt;
+  &lt;/div&gt;&lt;!-- sidebar-header --&gt;
+  &lt;div id=&quot;sidebarMenu&quot; class=&quot;sidebar-body&quot;&gt;
+    &lt;div class=&quot;nav-group show&quot;&gt;
+      &lt;a href=&quot;#&quot; class=&quot;nav-label&quot;&gt;Dashboard&lt;/a&gt;
+      &lt;ul class=&quot;nav nav-sidebar&quot;&gt;
+        &lt;li class=&quot;nav-item&quot;&gt;
+          &lt;a href=&quot;#&quot; class=&quot;nav-link active&quot;&gt;&lt;i class=&quot;ri-menu-line&quot;&gt;&lt;/i&gt; &lt;span&gt;Menu 1&lt;/span&gt;&lt;/a&gt;
+          &lt;a href=&quot;#&quot; class=&quot;nav-link&quot;&gt;&lt;i class=&quot;ri-menu-line&quot;&gt;&lt;/i&gt; &lt;span&gt;Menu 1&lt;/span&gt;&lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;&lt;!-- nav-group --&gt;
+  &lt;/div&gt;&lt;!-- sidebar-body --&gt;
+  &lt;div class=&quot;sidebar-footer&quot;&gt;
+    ...
+  &lt;/div&gt;&lt;!-- sidebar-footer --&gt;
+&lt;/div&gt;&lt;!-- sidebar --&gt;
+
+&lt;div class=&quot;header-main px-3 px-lg-4&quot;&gt;
+  &lt;a id=&quot;menuSidebar&quot; href=&quot;#&quot; class=&quot;menu-link me-3 me-lg-4&quot;&gt;&lt;i class=&quot;ri-menu-2-fill&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+
+  &lt;div class=&quot;form-search me-auto&quot;&gt;
+    &lt;input type=&quot;text&quot; class=&quot;form-control&quot; placeholder=&quot;Search&quot;&gt;
+    &lt;i class=&quot;ri-search-line&quot;&gt;&lt;/i&gt;
+  &lt;/div&gt;&lt;!-- form-search --&gt;
+
+  &lt;div class=&quot;dropdown dropdown-notification ms-3 ms-xl-4&quot;&gt;
+    ...
+  &lt;/div&gt;&lt;!-- dropdown --&gt;
+  &lt;div class=&quot;dropdown dropdown-profile ms-3 ms-xl-4&quot;&gt;
+    ...
+  &lt;/div&gt;&lt;!-- dropdown --&gt;
+&lt;/div&gt;&lt;!-- header-main --&gt;
+
+&lt;div class=&quot;main main-app p-3 p-lg-4&quot;&gt;
+  ...
+
+  &lt;div class=&quot;main-footer mt-5&quot;&gt;
+    ...
+  &lt;/div&gt;&lt;!-- main-footer --&gt;
+&lt;/div&gt;&lt;!-- main --&gt;</code></pre>
+
+        <p class="mb-2"><strong class="fw-semibold text-dark">Apps</strong></p>
+        <p>Below is the starter template structure that you can use in creating a new app page with offset sidebar.</p>
+
+        <pre class="mb-4"><code class="language-html">&lt;body class=&quot;sidebar-offset&quot;&gt;
+
+  &lt;div class=&quot;sidebar&quot;&gt;...&lt;/div&gt;
+
+  &lt;div class=&quot;header-main px-3 px-lg-4&quot;&gt;...&lt;/div&gt;
+
+  &lt;div class=&quot;main main-app p-3 p-lg-4&quot;&gt;...&lt;/div&gt;
+
+&lt;/body&gt;</code></pre>
+
+        <p class="mb-2"><strong class="fw-semibold text-dark">Pages</strong></p>
+        <p>Below is the starter template structure that you can use in creating a new page other than dashboard and apps.</p>
+
+        <pre class="mb-4"><code class="language-html">&lt;div class=&quot;sidebar&quot;&gt;...&lt;/div&gt;
+
+&lt;div class=&quot;main-mobile-header doc-mobile-header&quot;&gt;
+  &lt;a id=&quot;menuLink&quot; href=&quot;#&quot; class=&quot;menu-link&quot;&gt;&lt;i class=&quot;ri-menu-line&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;!-- main-mobile-header --&gt;
+
+&lt;div class=&quot;main main-app p-3 p-lg-4&quot;&gt;...&lt;/div&gt;</code></pre>
+
+      <hr class="main-separator">
+
+      <h5 id="section10" class="main-subtitle mb-4">Known Issue</h5>
+
+      <p class="mb-2"><strong class="fw-medium text-dark">Not displaying font icons in opening the html files directly in a browser.</strong></p>
+
+      <p>A page loaded from a file:// URI, only files in (or below) the same directory of the filesystem are considered to be "same origin", and so putting the font in a different subtree (../font/) means it will be blocked by security policy restrictions. Most browser disables cross-domain fonts "by default. By fixing this, you need to put the file in a remote or local server. Anyway, that what where we're going.</p>
+
+      <p class="mb-2"><strong class="fw-medium text-dark">Missing some images in template package</strong></p>
+      <p>Some images you see in the demo are use only for demo purposes only and is not allowed to be included in the template download package.</p>
+
+      <hr class="main-separator">
+
+      <h5 id="section11" class="main-subtitle mb-4">References</h5>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Plugins</th>
+            <th>Repository</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Animate CSS</td>
+            <td><a href="https://github.com/animate-css/animate.css" target="_blank">https://github.com/animate-css/animate.css</a></td>
+          </tr>
+          <tr>
+            <td>Bootstrap</td>
+            <td><a href="https://github.com/twbs/bootstrap" target="_blank">https://github.com/twbs/bootstrap</a></td>
+          </tr>
+          <tr>
+            <td>Bootstrap Tagsinput</td>
+            <td><a href="https://github.com/bootstrap-tagsinput/bootstrap-tagsinput" target="_blank">https://github.com/bootstrap-tagsinput/bootstrap-tagsinput</a></td>
+          </tr>
+          <tr>
+            <td>ChartJS</td>
+            <td><a href="https://github.com/chartjs/Chart.js" target="_blank">https://github.com/chartjs/Chart.js</a></td>
+          </tr>
+          <tr>
+            <td>Cleave JS</td>
+            <td><a href="https://github.com/nosir/cleave.js" target="_blank">https://github.com/nosir/cleave.js</a></td>
+          </tr>
+          <tr>
+            <td>CryptoFont</td>
+            <td><a href="https://github.com/AlexanderPoellmann/CryptoFont" target="_blank">https://github.com/AlexanderPoellmann/CryptoFont</a></td>
+          </tr>
+          <tr>
+            <td>Feathericons</td>
+            <td><a href="https://github.com/feathericons/feather" target="_blank">https://github.com/feathericons/feather</a></td>
+          </tr>
+          <tr>
+            <td>FontAwesome</td>
+            <td><a href="https://github.com/FortAwesome/Font-Awesome" target="_blank">https://github.com/FortAwesome/Font-Awesome</a></td>
+          </tr>
+          <tr>
+            <td>Flot</td>
+            <td><a href="https://github.com/flot/flot" target="_blank">https://github.com/flot/flot</a></td>
+          </tr>
+          <tr>
+            <td>FullCalendar</td>
+            <td><a href="https://github.com/fullcalendar/fullcalendar" target="_blank">https://github.com/fullcalendar/fullcalendar</a></td>
+          </tr>
+          <tr>
+            <td>Grid JS</td>
+            <td><a href="https://github.com/grid-js/gridjs" target="_blank">https://github.com/grid-js/gridjs</a></td>
+          </tr>
+          <tr>
+            <td>Ion.Rangeslider</td>
+            <td><a href="https://github.com/IonDen/ion.rangeSlider" target="_blank">https://github.com/IonDen/ion.rangeSlider</a></td>
+          </tr>
+          <tr>
+            <td>JQuery UI</td>
+            <td><a href="https://github.com/jquery" target="_blank">https://github.com/jquery</a></td>
+          </tr>
+          <tr>
+            <td>JQVMap</td>
+            <td><a href="https://github.com/manifestinteractive/jqvmap" target="_blank">https://github.com/manifestinteractive/jqvmap</a></td>
+          </tr>
+          <tr>
+            <td>Leaflet</td>
+            <td><a href="https://github.com/Leaflet/Leaflet" target="_blank">https://github.com/Leaflet/Leaflet</a></td>
+          </tr>
+          <tr>
+            <td>Moment</td>
+            <td><a href="https://github.com/moment/moment" target="_blank">https://github.com/moment/moment</a></td>
+          </tr>
+          <tr>
+            <td>Morris JS</td>
+            <td><a href="https://github.com/morrisjs/morris.js" target="_blank">https://github.com/morrisjs/morris.js</a></td>
+          </tr>
+          <tr>
+            <td>Parsley JS</td>
+            <td><a href="https://github.com/guillaumepotier/Parsley.js" target="_blank">https://github.com/guillaumepotier/Parsley.js</a></td>
+          </tr>
+          <tr>
+            <td>Peity</td>
+            <td><a href="https://github.com/benpickles/peity" target="_blank">https://github.com/benpickles/peity</a></td>
+          </tr>
+          <tr>
+            <td>Perfect Scrollbar</td>
+            <td><a href="https://github.com/mdbootstrap/perfect-scrollbar" target="_blank">https://github.com/mdbootstrap/perfect-scrollbar</a></td>
+          </tr>
+          <tr>
+            <td>Prism JS</td>
+            <td><a href="https://github.com/PrismJS/prism" target="_blank">https://github.com/PrismJS/prism</a></td>
+          </tr>
+          <tr>
+            <td>Quill</td>
+            <td><a href="https://github.com/quilljs/quill" target="_blank">https://github.com/quilljs/quill</a></td>
+          </tr>
+          <tr>
+            <td>Remixicon</td>
+            <td><a href="https://github.com/Remix-Design/remixicon" target="_blank">https://github.com/Remix-Design/remixicon</a></td>
+          </tr>
+          <tr>
+            <td>Select2</td>
+            <td><a href="https://github.com/select2/select2" target="_blank">https://github.com/select2/select2</a></td>
+          </tr>
+          <tr>
+            <td>Spectrum Colorpicker</td>
+            <td><a href="https://bgrins.github.com/spectrum" target="_blank">https://bgrins.github.com/spectrum</a></td>
+          </tr>
+          <tr>
+            <td>TypeAhead</td>
+            <td><a href="https://github.com/twitter/typeahead.js" target="_blank">https://github.com/twitter/typeahead.js</a></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <hr class="main-separator">
+
+      <h5 id="section12" class="main-subtitle mb-4">Customer Support</h5>
+
+      <p>You can request for support via email or themeforest item comments.</p>
+
+      <p>We will assist you any problem you encounter while buidling your dashboard via this template</p>
+
+      <p>We use request help form in comments and <a href="mailto:themepixels@gmail.com">email</a> to manage customer support. Soon, as we grow, we will invest and find the best customer support system we can use to serve you better. </p>
+
+      <p>For the meantime, submit a help request to the link given for any issues and concerns that you have. Don't worry, we will respond to you as quickly as we can. <strong class="fw-medium">Thank you!</strong></p>
+
+      </div><!-- container -->
+    </div><!-- main -->
+
+    <div class="main-footer main-footer-docs">
+      <span>&copy; 2023. Dashbyte. All Rights Reserved.</span>
+      <span>Created by: <a href="http://themepixels.me" target="_blank">Themepixels</a></span>
+    </div><!-- main-footer -->
+
+    <script src="dist/lib/jquery/jquery.min.js"></script>
+    <script src="dist/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="dist/lib/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <script src="dist/lib/prismjs/prism.js"></script>
+
+    <script src="dist/assets/js/script.js"></script>
+    <script>
+      'use strict'
+
+
+    </script>
+  </body>
+</html>
